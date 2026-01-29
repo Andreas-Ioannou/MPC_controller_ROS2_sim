@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nav2_mpc_controller</name>
+  <version>0.0.1</version>
+  <description>MPC controller plugin for Nav2 (diff drive)</description>
+  <maintainer email="you@todo.com">You</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <export>
+      <build_type>ament_cmake</build_type>
+  </export>
+
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>pluginlib</depend>
+  <depend>nav2_core</depend>
+  <depend>nav2_util</depend>
+  <depend>nav2_costmap_2d</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+
+  <build_depend>eigen3_cmake_module</build_depend>
+  <exec_depend>eigen3_cmake_module</exec_depend>
+
+</package>
